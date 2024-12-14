@@ -1,0 +1,26 @@
+  export const productdata=[
+    {
+        id:1,
+        image:'../assests/image1',
+price:1200,
+amount:1,
+    },
+    {
+        id:2,
+        image:'../assests/image1',
+price:1200,
+amount:1,
+    },
+    {
+        id:2,
+        image:'../assests/image1',
+price:1200,
+amount:1,
+    },
+    {
+        id:4,
+        image:'../assests/image1',
+price:1200,
+amount:1,
+    },
+ ]

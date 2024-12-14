@@ -1,0 +1,56 @@
+/* Collection section container */
+.collection-section {
+    padding: 4rem 2rem;
+    background-color: #f9f9f9; /* Light grey background */
+    text-align: center;
+  }
+  
+  /* Section title */
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  /* Collection grid */
+  .collection-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  /* Collection item */
+  .collection-item {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    width: 300px; /* Adjust width as needed */
+  }
+  
+  .collection-item:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Collection image */
+  .collection-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Collection title */
+  .collection-title {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+    color: #333;
+  }
+  
+  /* Collection description */
+  .collection-description {
+    font-size: 1rem;
+    margin: 0 1rem 1.5rem;
+    color: #666;
+  }
+  

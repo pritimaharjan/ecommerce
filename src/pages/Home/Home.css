@@ -1,0 +1,19 @@
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ensure content is centered vertically as well */
+    height: 100vh; /* Adjust the height as needed */
+    background-color: #f0f0f0; /* Optional: Set a background color */
+}
+
+.slider {
+    width: 80%; /* Adjust the width of the slider */
+    max-width: 800px; /* Optional: Set a max width */
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow effect */
+}
